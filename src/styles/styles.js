@@ -2,21 +2,26 @@ export const styles = {
   // --- Custom Styles (inline JS object for clarity, mix with Bootstrap utility classes) ---
 
   wrapper: {
-    backgroundColor: '#0b0b0b',
-    color: '#f0f0f0',
-    fontFamily: "'Poppins', 'Segoe UI', sans-serif"
-  },
-  navbar: {
+  backgroundColor: "#0b0b0b",
+  color: "#f0f0f0",
+  fontFamily: "'Poppins', 'Segoe UI', sans-serif",
+  width: "100%",
+  overflowX: "hidden",
+},
+navbar: {
     backgroundColor: '#000000dd',
     backdropFilter: 'blur(8px)',
     borderBottom: '1px solid #2c2c2c'
   },
   brand: {
-    fontWeight: 800,
-    letterSpacing: '1px',
-    fontSize: '1.1rem'
-  },
-  heroSection: {
+  fontWeight: 800,
+  letterSpacing: "0.5px",
+  fontSize: "clamp(0.85rem, 2vw, 1.1rem)",
+  whiteSpace: "normal",
+  overflowWrap: "break-word",
+  maxWidth: "75%",
+},
+heroSection: {
     height: '100vh',
     backgroundImage: 'url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070")',
     backgroundSize: 'cover',
