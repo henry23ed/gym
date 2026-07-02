@@ -54,7 +54,7 @@ const App = () => {
 
       <About smoothScrollTo={smoothScrollTo} />
 
-     {/* <Classes /> */}
+      <Classes />
 
       <Pricing />
 
