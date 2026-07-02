@@ -65,7 +65,7 @@ function Pricing() {
               style={{
                 ...styles.card,
                 borderTop: `4px solid ${styles.accent.color}`,
-                transform: "scale(1.03)",
+                transform: "scale(1)",
                 position: "relative",
               }}
             >
