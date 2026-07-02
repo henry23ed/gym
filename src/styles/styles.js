@@ -151,13 +151,6 @@ export const styles = {
     fontWeight: 'bold',
     paddingLeft: 0
   }
-wrapper: {
-  backgroundColor: "#0b0b0b",
-  color: "#f0f0f0",
-  fontFamily: "'Poppins', 'Segoe UI', sans-serif",
-  overflowX: "hidden",
-}
-
 // Add hover effects dynamically via component or keep in external, but inline styles cover base.
 // To ensure button hover and card hover we include a <style> tag in index.html or use className.
 // For brevity, we leave hover states to be handled by global css (but inline works). For production, additional <style jsx> could be added.
